@@ -50,9 +50,9 @@ Testing
 -----------------------
 Resolved Issues:
 Discovered that landing background image was not working correctly as the style.css file was improperly referenced in the index.html file.
-Video player no longer breaks alignment at smaller resolutions
 
 Known Bugs:
+Video player breaks alignment at smaller resolutions
 
 -----------------------
 Deployment
