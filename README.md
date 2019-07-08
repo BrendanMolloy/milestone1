@@ -29,7 +29,6 @@ The features I'm looking to implement include:
 -A Contact form for bookings or other queries.
 
 Features Left to Implement
--Sticking Navigation bar to top of viewport
 -social media links
 -video section
 -gallery section
@@ -51,9 +50,9 @@ Testing
 -----------------------
 Resolved Issues:
 Discovered that landing background image was not working correctly as the style.css file was improperly referenced in the index.html file.
+Video player no longer breaks alignment at smaller resolutions
 
 Known Bugs:
-Video player needs to be adjusted for smaller resolutions
 
 -----------------------
 Deployment
