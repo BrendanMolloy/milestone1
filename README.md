@@ -49,7 +49,11 @@ https://getbootstrap.com/
 -----------------------
 Testing
 -----------------------
+Resolved Issues:
 Discovered that landing background image was not working correctly as the style.css file was improperly referenced in the index.html file.
+
+Known Bugs:
+Video player needs to be adjusted for smaller resolutions
 
 -----------------------
 Deployment
