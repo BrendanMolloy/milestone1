@@ -14,9 +14,18 @@
     z-index: 1;
 }
 
-.social-links {
-    margin: auto;
+.navbar {
+    justify-content:initial;
 }
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.social-links {
+    margin:auto 0;
+}
+
 
 .social-links li a i {
     width: 32px;
@@ -29,10 +38,28 @@
     background-color: #8f8f8f;
 }
 
+.dropdown {
+    margin: auto;
+    margin-right:15px;
+}
+
+.dropdown-menu {
+    min-width:4rem;
+}
+
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+.dropdown-menu-right li {
+    text-align: right;
+}
+
 .landing {
+    padding:0;
     background-image: url("../images/monkees.jpg");
     height: 100vh;
-    width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,13 +69,6 @@
     background-color: #fafafa;
     padding:15px;
 }
-
-/*.video-player {
-    display: block;
-    margin: auto;
-    text-align: center;
-}*/
-
 
 .gallery-container {
     background-color: #fd6e6e;
@@ -64,7 +84,7 @@
     padding:15px;
 }
 
-.col-sm-4 {
+.col-lg-4 {
     text-align: center;
 }
 
