@@ -20,20 +20,22 @@ Features
 -----------------------
 The features I'm looking to implement include:
 -A single, scrolling page with distinct sections.
--A Navigation bar that remain near the top of the webpage's viewport.
--Social Media links embedded in the sticking navbar.
+-A Navigation bar that remains fixed to the top of the webpage's viewport.
+-Social Media links embedded in the navbar.
 -A Landing section to both ease the viewer into the website, while also making clear what it is about.
--A Video section to showcase the band's performance ability
+-A Video section to showcase the band performing
 -A Gallery/About section that provides further details about the band members
 -An Audio section to showcase even more audio samples from the band's catalog
 -A Contact form for bookings or other queries.
 
 Features Left to Implement
--social media links
--video section
--gallery section
--audio section
--contact form
+-video in video section actually plays
+-gallery with more images and a modal
+-shadow effect behind images in gallery
+-contact form verbage
+-reactive elements such as social media links changing colors on hover
+-fonts
+-backgrounds
 
 Another feature idea
 -Fictional Tour Dates
@@ -50,9 +52,11 @@ Testing
 -----------------------
 Resolved Issues:
 Discovered that landing background image was not working correctly as the style.css file was improperly referenced in the index.html file.
+Video player no longer breaks alignment at smaller resolutions
 
 Known Bugs:
-Video player breaks alignment at smaller resolutions
+video player not working
+navbar elements jumping to odd places for the linked sections
 
 -----------------------
 Deployment
