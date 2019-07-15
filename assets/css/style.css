@@ -12,6 +12,11 @@ body {
     background-color: transparent;
 }
 
+h2 {
+    background-color: #fafafa;
+    border-radius: 16px;
+}
+
 .navbar-container {
     position: fixed;
     width: 100vw;
@@ -61,7 +66,6 @@ body {
 }
 
 .landing {
-    padding: 0;
     background: url("../images/monkees.jpg") no-repeat fixed center;
     height: 100vh;
     background-size: cover;
@@ -69,21 +73,25 @@ body {
 
 .video-container {
     background-color: #fafafa;
-    padding: 40px;
+    padding: 15px;
+}
+
+.video-player {
+    padding: 0 40px 40px 40px;
 }
 
 .gallery-container {
-    background-color: #fd6e6e;
-    /* padding:15px; */
-    text-align: justify;
+    background: url("../images/monkeesbg1.jpg") no-repeat fixed center;
+    background-size: cover;
 }
 
 .image {
     padding: 20px;
 }
 
-.col-md-3 {
+.col-md-6 {
     text-align: center;
+    padding:20px;
 }
 
 .row>.column {
@@ -173,7 +181,7 @@ body {
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: white;
+    color: red;
     font-weight: bold;
     font-size: 20px;
     transition: 0.6s ease;
@@ -250,7 +258,8 @@ img.hover-shadow {
 }
 
 .contact-container {
-    background-color: #fd6e6e;
+    background: url("../images/monkeesbg2.jpg") no-repeat fixed center;
+    background-size: cover;
     padding: 15px;
 }
 
@@ -258,4 +267,10 @@ img.hover-shadow {
     margin:auto;
     padding-left:40px;
     padding-right:40px;
+}
+
+.col-sm-6 p{
+    padding: 15px;
+    background-color: #fafafa;
+    border-radius: 16px;
 }
