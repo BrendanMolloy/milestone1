@@ -1,3 +1,7 @@
+body {
+    font-family: 'Ultra', serif;
+}
+
 .row {
     margin: auto;
 }
@@ -58,16 +62,14 @@
 
 .landing {
     padding: 0;
-    background-image: url("../images/monkees.jpg");
+    background: url("../images/monkees.jpg") no-repeat fixed center;
     height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
 .video-container {
     background-color: #fafafa;
-    padding: 15px;
+    padding: 40px;
 }
 
 .gallery-container {
