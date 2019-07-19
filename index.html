@@ -44,42 +44,43 @@
                 </li>
             </ul>
             <!-- Navbar Menu -->
-<div class="navbar-right"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="navbar-right">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-<div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-        <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Video</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Audio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-        </li>
-    </ul>
-</div>
-</div> 
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Audio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
         </nav>
     </div>
 
     <!-- Landing -->
     <div class="container-fluid landing" id="home">
-        
+        <p>Welcome to the unofficial site for the Monkees</p>
     </div>
-<div class="row next-section" id="video">
-            <p>placeholder text</p>
-        </div>
+    <div class="row next-section" id="video">
+        <p>placeholder text</p>
+    </div>
     <!-- Video -->
-        <section class="video-container">
+    <section class="video-container">
         <div class="section-heading">
             <h2>Video</h2>
         </div>
@@ -101,31 +102,54 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <div class="image">
-                    <img src="assets/images/dj.jpg" height=200 width=200 onclick="openModal();currentSlide(1)" alt="Davy Jones">
+                <div class="card" style="width: 18rem;">
+                    <div class="image card-img-top">
+                        <img src="assets/images/dj.jpg" height=200 width=200 onclick="openModal();currentSlide(1)" alt="Davy Jones">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Davy Jones</h5>
+                        <p class="card-text">Davy Jones was a member of the Monkees</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card" style="width: 18rem;">
+                        <div class="image card-img-top">
+                            <img src="assets/images/md.jpg" height=200 width=200 onclick="openModal();currentSlide(2)" alt="Mickey Dolenz">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Micky Dolenz</h5>
+                            <p class="card-text">Micky Dolenz was a member of the Monkees</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="image">
-                    <img src="assets/images/md.jpg" height=200 width=200 onclick="openModal();currentSlide(2)" alt="Mickey Dolenz">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card" style="width: 18rem;">
+                        <div class="image card-img-top">
+                            <img src="assets/images/mn.jpg" height=200 width=200 onclick="openModal();currentSlide(3)" alt="Michael Nesmith">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Michael Nesmith</h5>
+                            <p class="card-text">Michael Nesmith was a member of the Monkees</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="image">
-                    <img src="assets/images/mn.jpg" height=200 width=200 onclick="openModal();currentSlide(3)" alt="Michael Nesmith">
+                <div class="col-md-6">
+                    <div class="card" style="width: 18rem;">
+                        <div class="image card-img-top">
+                            <img src="assets/images/pt.jpg" height=200 width=200 onclick="openModal();currentSlide(4)" alt="Peter Tork">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Peter Tork</h5>
+                            <p class="card-text">Peter Tork was a member of the Monkees</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="image">
-                    <img src="assets/images/pt.jpg" height=200 width=200 onclick="openModal();currentSlide(4)" alt="Peter Tork">
+                <div class="row next-section" id="audio">
+                    <p>placeholder text</p>
                 </div>
-            </div>
-        </div>
-        <div class="row next-section" id="audio">
-            <p>placeholder text</p>
-        </div>
     </section>
     <!-- Gallery Modal -->
 
