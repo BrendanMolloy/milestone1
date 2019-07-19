@@ -18,6 +18,8 @@ As a fan I want to contact the band so that I can ask more about bookings
 
 Wireframes:-
 all done in pen and paper
+![alt text](/assets/images/wireframes-macro.jpg)
+![alt text](/assets/images/wireframes-macro.jpg)
 
 -----------------------
 Features
@@ -55,6 +57,7 @@ Video player no longer breaks alignment at smaller resolutions
 video from repository exceeded 8MB in size preventing its rendering; opted to use a link to a corresponding youtube video
 Images in modal no longer extend past edge of screen
 Thumbnails in modal no longer overlap
+Navbar no longer occludes headings after clicking associated link
 
 Known Bugs:
 navbar occludes section headings when jumped to the associated link
