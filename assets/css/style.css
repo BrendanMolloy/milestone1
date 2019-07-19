@@ -63,22 +63,9 @@ h2 {
     background-color: black;
 }
 
-.dropdown {
+.navbar-right {
     margin: auto;
-    margin-right: 15px;
-}
-
-.dropdown-menu {
-    min-width: 4rem;
-}
-
-.dropdown-menu-right {
-    right: 0;
-    left: auto;
-}
-
-.dropdown-menu-right li {
-    text-align: right;
+    margin-right:10px;
 }
 
 .landing {
