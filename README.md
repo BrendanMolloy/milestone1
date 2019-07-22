@@ -87,10 +87,11 @@ This project has not been deployed yet.
 Credits
 -----------------------
 Much of the media for this project has been taken from the respository of aaronsnig501, found on GitHub.
-www.wikipedia.org
-8notes.com
-yahoo.com
-biography.com
-pinterest.com
+Other content was sourced from:  
+www.wikipedia.org  
+8notes.com  
+yahoo.com  
+biography.com  
+pinterest.com  
 purpleclover.littlethings.com
 
