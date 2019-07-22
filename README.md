@@ -81,7 +81,8 @@ all bugs currently resolved
 -----------------------
 Deployment
 -----------------------
-This project has not been deployed yet.
+This project has been deployed at:  
+https://brendanmolloy.github.io/milestone1/
 
 -----------------------
 Credits
