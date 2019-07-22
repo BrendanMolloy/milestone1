@@ -1,7 +1,7 @@
 -----------------------
 First Milestone Project
 -----------------------
-This is my first milestone project that I'll be completing as part of my Fullstack Developer course with Code Institute.
+This is my first milestone project that I'll be completing as part of my Fullstack Developer course with Code Institute.  
 The brief is to create a static (front-end only) website for a band, specifically for the Monkees, an American pop rock band that rose to fame in the 60s.
 
 
