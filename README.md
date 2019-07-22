@@ -26,7 +26,7 @@ More detailed depiction for each individual section:
 ![alt text](/assets/images/wireframes-more-detail.jpg)
 The simple home page of a single image was something I found used again and again on other bands' websites.  
 In fact many of them opened with a full-viewport auto-playing file of their latest video. But because I ran into problems with file sizes with my featured video, I decided to opt for the image.  
-I liked particularly liked the landing image I used as the grayscale felt neat, its showed the band performing, and it even had the band name already displayed in its center.  
+I particularly liked the landing image I used as the grayscale felt neat, its showed the band performing, and it even had the band name already displayed in its center.  
 As such, I reviewed my other media and implemented the grayscale theme to create a more consistent consistent look. I didn't completely eliminate colored images, in order to provide some visual variety.  
 I quickly learned that my plans for the gallery section would require the use of javascript, which I didn't want to get too heavily into as I'd neither started the associated fundamentals course, nor was the assessment based on my JavaScript skills.  
 Yet, despite scaling my plans back to a modal, I still had to borrow some JS code from elsewhere.  
