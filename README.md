@@ -12,9 +12,10 @@ The brief for this project is to create a site to showcase music and video clips
 As well as to publicise the band's availability to perform at events like weddings, or Christmas parties.
 
 User Stories:-  
-As a fan I want images of the band so that I can see more of its members.  
+As a fan I want short bios of the band so that I can learn more about its members.  
 As a fan of 60s music I want audio clips of the band's back catalog so that I can find out if I like their music.  
-As a fan I want to contact the band so that I can ask more about bookings.  
+As someone with an upcoming wedding I want to contact the band so that I can ask more about bookings.  
+As a new fan I want links to the band's social media accounts so that I can engage with more of their content.
 
 Wireframes:-  
 Macro concept of layout:
