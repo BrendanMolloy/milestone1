@@ -90,7 +90,7 @@ Deployment
 -----------------------
 This project has been deployed at:  
 https://brendanmolloy.github.io/milestone1/
-[link](https://brendanmolloy.github.io/milestone1/){:target="_blank"}
+[link](https://brendanmolloy.github.io/milestone1/):target="_blank"
 
 -----------------------
 Credits
