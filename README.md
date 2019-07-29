@@ -48,7 +48,7 @@ The features I've implemented include:
 *A Gallery/About section that provides further details about the band members.  
 *A modal to offer an expanded view of the images found in the gallery.  
 *An Audio section to showcase even more audio samples from the band's catalog.  
-*A Contact form for bookings or other queries.  
+*A Contact form for bookings or other queries. This form is for demonstration purposes and is not connected to any external databases or email accounts.
 *Clickable elements are reactive and further draw attention to themselves to convey interactability.  
 *A font inspired by the 60s.  
 *Background images that showcase more of the band.  
@@ -68,6 +68,12 @@ https://getbootstrap.com/
 -----------------------
 Testing
 -----------------------
+Compatibility:
+Testing was carried out on Google Chrome, Mozilla Firefox, Microsoft Edge, and Opera browsers.
+Devices tested on included a Microsoft Surface Book 2 (Windows 10 OS), desktop and tablet mode, a Sony Xperia phone (Android 7 OS), and an Amazon fire 5 tablet.
+Testing on these platforms involved checking that layout did not become warped, links still worked, audio clips still functioned, etc.
+The only found iisue was that the smoot scrolling efect was not compatible with Microsoft Edge.
+
 Resolved Issues:  
 +Discovered that landing background image was not working correctly as the style.css file was improperly referenced in the index.html file.  
 +Video player no longer breaks alignment at smaller resolutions.  
@@ -84,6 +90,7 @@ Deployment
 -----------------------
 This project has been deployed at:  
 https://brendanmolloy.github.io/milestone1/
+[link](https://brendanmolloy.github.io/milestone1/){:target="_blank"}
 
 -----------------------
 Credits
